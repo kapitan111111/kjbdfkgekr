@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "IT School App",
+    "slug": "it-school-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.itschool.app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "fonts": [
+      "./assets/fonts/Roboto-Regular.ttf",
+      "./assets/fonts/Roboto-Medium.ttf",
+      "./assets/fonts/Roboto-Bold.ttf",
+      "./assets/fonts/Roboto-Light.ttf"
+    ],
+    "plugins": [
+      "expo-router"
+    ],
+    "scheme": "itapp"
+  }
+}
